@@ -1,0 +1,69 @@
+<configuration >
+  <preference name="sumokbname" value="SUMO" />
+  <preference name="testOutputDir" value="/sigma/KBs/tests" />
+  <preference name="TPTPDisplay" value="no" />
+  <preference name="inferenceEngine" value="/sigma/E/PROVER/e_ltb_runner" />
+  <preference name="inferenceTestDir" value="/sigma/KBs/tests" />
+  <preference name="baseDir" value="/sigma/sigmakee" />
+  <preference name="hostname" value="<update with hostname>" />
+  <preference name="logLevel" value="warning" />
+  <preference name="systemsDir" value="/sigma/workspace/sigma/sigma" />
+  <preference name="userBrowserLimit" value="25" />
+  <preference name="adminBrowserLimit" value="200" />
+  <preference name="SemRewrite" value="/sigma/KBs/WordNetMappings/SemRewrite.txt" />
+  <preference name="typePrefix" value="yes" />
+  <preference name="graphDir" value="/sigma/workspace/sigma/sigma/webapps/sigma/graph" />
+  <preference name="TPTP" value="yes" />
+  <preference name="cache" value="yes" />
+  <preference name="editorCommand" value="" />
+  <preference name="graphVizDir" value="/usr/bin" />
+  <preference name="kbDir" value="/sigma/KBs" />
+  <preference name="loadCELT" value="no" />
+  <preference name="celtdir" value="" />
+  <preference name="lineNumberCommand" value="" />
+  <preference name="prolog" value="" />
+  <preference name="port" value="8080" />
+  <preference name="tptpHomeDir" value="/sigma/workspace/sigma/sigma" />
+  <preference name="showcached" value="no" />
+  <preference name="leoExecutable" value="" />
+  <preference name="holdsPrefix" value="no" />
+  <preference name="logDir" value="/sigma/logs" />
+  <kb name="SUMO" >
+    <constituent filename="/sigma/KBs/english_format.kif" />
+    <constituent filename="/sigma/KBs/domainEnglishFormat.kif" />
+    <constituent filename="/sigma/KBs/ArabicCulture.kif" />
+    <constituent filename="/sigma/KBs/Biography.kif" />
+    <constituent filename="/sigma/KBs/Cars.kif" />
+    <constituent filename="/sigma/KBs/Catalog.kif" />
+    <constituent filename="/sigma/KBs/Communications.kif" />
+    <constituent filename="/sigma/KBs/CountriesAndRegions.kif" />
+    <constituent filename="/sigma/KBs/Dining.kif" />
+    <constituent filename="/sigma/KBs/Economy.kif" />
+    <constituent filename="/sigma/KBs/engineering.kif" />
+    <constituent filename="/sigma/KBs/FinancialOntology.kif" />
+    <constituent filename="/sigma/KBs/Food.kif" />
+    <constituent filename="/sigma/KBs/Geography.kif" />
+    <constituent filename="/sigma/KBs/Government.kif" />
+    <constituent filename="/sigma/KBs/Hotel.kif" />
+    <constituent filename="/sigma/KBs/Justice.kif" />
+    <constituent filename="/sigma/KBs/Languages.kif" />
+    <constituent filename="/sigma/KBs/Media.kif" />
+    <constituent filename="/sigma/KBs/Merge.kif" />
+    <constituent filename="/sigma/KBs/Mid-level-ontology.kif" />
+    <constituent filename="/sigma/KBs/MilitaryDevices.kif" />
+    <constituent filename="/sigma/KBs/Military.kif" />
+    <constituent filename="/sigma/KBs/MilitaryPersons.kif" />
+    <constituent filename="/sigma/KBs/MilitaryProcesses.kif" />
+    <constituent filename="/sigma/KBs/Music.kif" />
+    <constituent filename="/sigma/KBs/naics.kif" />
+    <constituent filename="/sigma/KBs/People.kif" />
+    <constituent filename="/sigma/KBs/QoSontology.kif" />
+    <constituent filename="/sigma/KBs/Sports.kif" />
+    <constituent filename="/sigma/KBs/TransnationalIssues.kif" />
+    <constituent filename="/sigma/KBs/Transportation.kif" />
+    <constituent filename="/sigma/KBs/TransportDetail.kif" />
+    <constituent filename="/sigma/KBs/UXExperimentalTerms.kif" />
+    <constituent filename="/sigma/KBs/VirusProteinAndCellPart.kif" />
+    <constituent filename="/sigma/KBs/WMD.kif" />
+  </kb>
+</configuration>

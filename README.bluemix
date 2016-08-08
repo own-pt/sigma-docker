@@ -1,0 +1,5 @@
+How to deploy on Bluemix:
+
+$ docker build -t sumo .
+$ docker tag sumo registry.ng.bluemix.net/<namespace>/sumo:latest
+$ docker push registry.ng.bluemix.net/<namespace>/sumo:latest
